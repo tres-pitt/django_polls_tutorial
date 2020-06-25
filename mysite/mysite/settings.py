@@ -106,7 +106,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+#TIME_ZONE = 'UTC'
+TIME_ZONE = 'US/Mountain'
+# https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones
 
 USE_I18N = True
 
